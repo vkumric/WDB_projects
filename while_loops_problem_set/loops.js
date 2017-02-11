@@ -34,12 +34,10 @@ console.log("Printing all numbers divisible by 5 and 3 between 5 to 50");
 var divisible = 5;
 
 while (divisible < 51)
+{
 	if (divisible % 5 === 0 && divisible % 3 === 0)
-	{
-		console.log(divisible)
-		divisible++;
-	}
-	else
-	{
-		divisible++;
-	}
+		{
+			console.log(divisible);
+		}
+	divisible++;
+}
