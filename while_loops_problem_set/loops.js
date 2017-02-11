@@ -1,6 +1,7 @@
 // Print all numbers from -10 to 19
 var problem_1 = -10;
 
+console.log("Printing numbers from -10 to 19");
 while (problem_1 < 20)
 {
 	console.log(problem_1);
@@ -8,7 +9,7 @@ while (problem_1 < 20)
 } 
 
 //Print even numbers between 10 to 40.
-
+console.log("Printing even numbers from 10 to 40");
 var problem_2 = 10;
 
 while (problem_2 < 41)
@@ -18,7 +19,7 @@ while (problem_2 < 41)
 }
 
 //Print odd numbers between 300 & 333
-
+console.log("Printing odd numbers from 300 to 333");
 var odd_num = 301;
 
 while (odd_num < 334)
@@ -28,7 +29,7 @@ while (odd_num < 334)
 }
 
 // Print all numbers divisible by 5 and 3 between 5 and 50
-
+console.log("Printing all numbers divisible by 5 and 3 between 5 to 50");
 var divisible = 5;
 
 while (divisible < 51)
