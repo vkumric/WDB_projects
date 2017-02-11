@@ -12,7 +12,7 @@ while (problem_1 < 20)
 console.log("Printing even numbers from 10 to 40");
 var problem_2 = 10;
 
-while (problem_2 < 41)
+while (problem_2 <= 40)
 {
 	console.log(problem_2);
 	problem_2 += 2;
@@ -22,7 +22,8 @@ while (problem_2 < 41)
 console.log("Printing odd numbers from 300 to 333");
 var odd_num = 301;
 
-while (odd_num < 334)
+while (odd_num <= 333)
+	if (odd_num % 2 !== 0)
 {
 	console.log(odd_num)
 	odd_num += 2;
